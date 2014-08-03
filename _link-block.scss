@@ -1,0 +1,32 @@
+// *************************************
+//
+//   #LINK-BLOCK
+//
+// *************************************
+
+// The `link-block` module simply displays a link as block.
+
+// Predefine the variables below in order to enable specific features.
+$tree-link-block-namespace:    $tree-namespace !default;
+
+$tree-enable-link-block:       false !default;
+
+
+
+
+
+@if ($tree-enable-link-block == true) {
+
+    .#{$tree-link-block-namespace}link-block,
+    %#{$tree-link-block-namespace}link-block {
+
+        &:hover,
+        &:focus,
+        &:active {
+            display: block;
+            text-decoration: none;
+        }
+
+    }
+
+}
