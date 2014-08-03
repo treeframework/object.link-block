@@ -1,6 +1,6 @@
 # The link-block object
 
-The `link` module simply displays a link as block.
+The `link-block` module simply displays a link as block.
 
 Install using Bower:
 
