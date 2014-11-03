@@ -20,6 +20,7 @@ $tree-enable-link-block:       false !default;
     .#{$tree-link-block-namespace}link-block,
     %#{$tree-link-block-namespace}link-block {
 
+        &,
         &:hover,
         &:focus,
         &:active {
