@@ -1,10 +1,18 @@
-# The link-block object
+# Link-block
 
 The `link-block` object simply displays a link as block.
 
 Install using Bower:
 
-    $ bower install --save tree-link-block
+```sh
+$ bower install tree-link-block --save
+```
+
+Install using npm:
+
+```sh
+$ npm install tree-link-block --save
+```
 
 ## Credits
 
