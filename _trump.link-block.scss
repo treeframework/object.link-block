@@ -9,25 +9,19 @@
 // Predefine the variables below in order to enable specific features.
 $tree-link-block-namespace:    $tree-namespace !default;
 
-$tree-enable-link-block:       false !default;
 
 
 
 
+.#{$tree-link-block-namespace}u-link-block,
+%#{$tree-link-block-namespace}u-link-block {
 
-@if ($tree-enable-link-block == true) {
-
-    .#{$tree-link-block-namespace}u-link-block,
-    %#{$tree-link-block-namespace}u-link-block {
-
-        &,
-        &:hover,
-        &:focus,
-        &:active {
-            display: block;
-            text-decoration: none;
-        }
-
+    &,
+    &:hover,
+    &:focus,
+    &:active {
+        display: block !important;
+        text-decoration: none !important;
     }
 
 }
