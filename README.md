@@ -1,20 +1,20 @@
 # link-block
 
-The `link-block` object simply displays a link as block.
+The `link-block` module simply displays a link as block.
 
 ## Dependencies
 
-The `link-block` object depends on one other module:
+The `link-block` module depends on one other module:
 
 * [settings.defaults](https://github.com/treeframework/settings.defaults)
 
-If you install the `link-block` object using Bower or npm, you will get these
+If you install the `link-block` module using Bower or npm, you will get these
 dependencies at the same time. If not using Bower or npm, please be sure to
 install and @import these dependencies in the relevant way.
 
 ## Installation
 
-You can install `link-block` object via Bower, npm, Git Submodule, or copy and
+You can install `link-block` module via Bower, npm, Git Submodule, or copy and
 paste.
 
 ### Install using Bower:
@@ -23,10 +23,10 @@ paste.
 $ bower install tree-link-block --save
 ```
 
-Once installed, `@import` into your project in its Object layer:
+Once installed, `@import` into your project in its Trump layer:
 
 ```scss
-@import "bower_components/tree-link-block/object.link-block";
+@import "bower_components/tree-link-block/trump.link-block";
 ```
 
 ### Install using npm:
@@ -38,27 +38,27 @@ $ npm install tree-link-block --save
 ### Install as a Git Submodule:
 
 ```sh
-$ git submodule add git@github.com:treeframework/object.link-block.git
+$ git submodule add git@github.com:treeframework/trump.link-block.git
 ```
 
-Once installed, `@import` into your project in its Object layer:
+Once installed, `@import` into your project in its Trump layer:
 
 ```scss
-@import "object.link-block/object.link-block";
+@import "trump.link-block/trump.link-block";
 ```
 
 ### Install via file download
 
 The least recommended option for installation is to simply download
-`_object.link-block.scss` into your project and `@import` it into your
-project in its Object layer.
+`_trump.link-block.scss` into your project and `@import` it into your
+project in its Trump layer.
 
 ## Usage
 
-Basic usage of the `link-block` object uses the required classes:
+Basic usage of the `link-block` module uses the required classes:
 
 ```html
-<a class="link-block" href="#">
+<a class="u-link-block" href="#">
     Link block
 </a>
 ```
