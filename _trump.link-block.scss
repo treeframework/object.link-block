@@ -1,17 +1,35 @@
-// *************************************
+// =============================================================================
 //
-//   #LINK-BLOCK
+// Name:          Link-block
 //
-// *************************************
+// Description:   Displays a link as block.
+//
+// Block:         `u-link-block`
+//
+// Markup:
+//
+// <a class="u-link-block" href="#">...</a>
+//
+// =============================================================================
 
-// The link-block module simply displays a link as block.
+
+
+
+
+// Variables
+// =============================================================================
 
 // Predefine the variables below in order to enable specific features.
+
 $tree-link-block-namespace:    $tree-namespace !default;
 
 
 
 
+
+// =============================================================================
+// Block: `u-link-block`
+// =============================================================================
 
 .#{$tree-link-block-namespace}u-link-block,
 %#{$tree-link-block-namespace}u-link-block {
