@@ -14,8 +14,7 @@ install and @import these dependencies in the relevant way.
 
 ## Installation
 
-You can install `link-block` module via Bower, npm, Git Submodule, or copy and
-paste.
+You can install `link-block` module via Bower, npm, or copy and paste.
 
 ### Install using Bower:
 
@@ -35,18 +34,6 @@ Once installed, `@import` into your project in its Trump layer:
 $ npm install tree-link-block --save
 ```
 
-### Install as a Git Submodule:
-
-```sh
-$ git submodule add git@github.com:treeframework/trump.link-block.git
-```
-
-Once installed, `@import` into your project in its Trump layer:
-
-```scss
-@import "trump.link-block/trump.link-block";
-```
-
 ### Install via file download
 
 The least recommended option for installation is to simply download
@@ -58,9 +45,7 @@ project in its Trump layer.
 Basic usage of the `link-block` module uses the required classes:
 
 ```html
-<a class="u-link-block" href="#">
-    Link block
-</a>
+<a class="u-link-block" href="#">...</a>
 ```
 
 ## Credits
