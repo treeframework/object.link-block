@@ -21,7 +21,7 @@
 
 // Predefine the variables below in order to enable specific features.
 
-$tree-link-block-namespace:    $tree-namespace !default;
+$tree-link-block-namespace:   $tree-namespace !default;
 
 
 
@@ -31,8 +31,7 @@ $tree-link-block-namespace:    $tree-namespace !default;
 // Block: `u-link-block`
 // =============================================================================
 
-.#{$tree-link-block-namespace}u-link-block,
-%#{$tree-link-block-namespace}u-link-block {
+.#{$tree-link-block-namespace}u-link-block {
 
     &,
     &:hover,
